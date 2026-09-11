@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talal Yousuf Ali — Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home">TYA</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="hero-name">Talal Yousuf Ali</h1>
+                <h2 class="hero-subtitle">Software Developer & Engineering Student</h2>
+                <p class="hero-description">
+                    Passionate about building efficient software and exploring the intersections of Machine Learning, Databases, and System Design. 
+                </p>
+
+                <!-- Add these buttons right below the hero-description -->
+                <div class="hero-action-buttons">
+                    <a href="#projects" class="hero-btn primary-btn">VIEW_PROJECTS</a>
+                    <a href="#contact" class="hero-btn secondary-btn">CONTACT_ME</a>
+                </div>
+                
+                <!-- Social & Contact Links -->
+                <div class="hero-socials">
+                    <a href="mailto:tjali20007424@gmail.com" target="_blank" title="Email me"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/TjAliIUT" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/talalyousufali/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2 class="section-title"><span>/</span> about me</h2>
+            <div class="about-content">
+                <p>I am a university student and software developer with a strong foundation in C++ and Python. I enjoy tackling complex problems, whether it is optimizing database management systems or exploring the fundamentals of machine learning.</p>
+                <p>Beyond coursework, I actively participate in competitive programming, such as the Inter-University Junior Programming Contest (IJPC), and collaborate on codebase projects alongside teammates using Git, GitHub, and CMake.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2 class="section-title"><span>/</span> skills & toolkit</h2>
+            
+            <div class="skills-grid">
+                <!-- Category 1 -->
+                <div class="skill-category">
+                    <h3>PROGRAMMING</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C/C++</span>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="skill-category">
+                    <h3>DATA SCIENCE & ML</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">EDA</span>
+                        <span class="skill-tag">Data Cleaning</span>
+                        <span class="skill-tag">Regression</span>
+                        <span class="skill-tag">Classification</span>
+                        <span class="skill-tag">Clustering</span>
+                        <span class="skill-tag">Model Evaluation</span>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="skill-category">
+                    <h3>LIBRARIES & FRAMEWORKS</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">scikit-learn</span>
+                        <span class="skill-tag">matplotlib</span>
+                        <span class="skill-tag">seaborn</span>
+                        <span class="skill-tag">TensorFlow</span>
+                    </div>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="skill-category">
+                    <h3>TOOLS</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title"><span>/</span> featured work</h2>
+            
+            <div class="projects-grid">
+                
+                <!-- ==========================================
+                     PROJECT CARD WRAPPER TEMPLATE
+                     Copy this block to add a new project
+                     ========================================== -->
+                <a href="https://github.com/yourusername/your-repo" target="_blank" class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">B2B Workspace Application</h3>
+                        <p class="project-desc">A robust desktop software application built with complex window states, integrated page navigation, and nested serialization logic for reliable data persistence.</p>
+                        <div class="project-tech-stack">
+                            <span>C++</span>
+                            <span>ImGui</span>
+                            <span>CMake</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- ========================================== -->
+                
+            </div>
+        </section>
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements">
+            <h2 class="section-title"><span>/</span> achievements & certifications</h2>
+            
+            <div class="achievements-grid">
+                <!-- Achievement Card 1 -->
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-trophy" style="color: var(--accent-orange);"></i>
+                    </div>
+                    <div class="achievement-info">
+                        <h3>Inter-University Junior Programming Contest (IJPC)</h3>
+                        <p class="achievement-desc">Participant • May 2025</p>
+                    </div>
+                </div>
+
+                <!-- Achievement Card 2 -->
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-certificate" style="color: var(--accent-blue);"></i>
+                    </div>
+                    <div class="achievement-info">
+                        <h3>Advanced Technical Coursework</h3>
+                        <p class="achievement-desc">Completed comprehensive modules and assignments via Phitron.</p>
+                    </div>
+                </div>
+                
+                <!-- Add more cards here as you earn them! -->
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="contact-container">
+                <p class="contact-sub">GET IN TOUCH</p>
+                <h2 class="contact-title">Let's Connect</h2>
+                <p class="contact-text">Feel free to reach out if you have a question, want to collaborate on a project, or just want to say hi!</p>
+                
+                <div class="contact-links">
+                    <a href="mailto:tjali20007424@gmail.com" class="contact-btn">
+                        <i class="fa-solid fa-envelope"></i> tjali20007424@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/talalyousufali/" target="_blank" class="contact-btn">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/TjAliIUT" target="_blank" class="contact-btn">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Talal Yousuf Ali. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
